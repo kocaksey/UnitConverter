@@ -30,56 +30,56 @@ namespace UnitConverter
             switch (fromBox.SelectedItem)
             {
                 
-                case "meter":
+                case "Meter                                      [m]":
                     //double.TryParse(fromText.Text, out num);
                     double.TryParse(fromText.Text, out num);
                     unitLen1.Text = "[m]";
                     break;
-                case "millimeter":
+                case "Milimeter                              [mm]":
                     double.TryParse(fromText.Text, out num);
                     num = num / 1000;
                     break;
-                case "Centimeter":
+                case "Centimeter                            [cm]":
                     double.TryParse(fromText.Text, out num);
                     num = num / 100;
                     unitLen1.Text = "[mm]";
                     break;
-                case "Inch":
+                case "Inch                                      [in\"]":
                     double.TryParse(fromText.Text, out num);
                     num = num * 0.0254;
                     unitLen1.Text = "[In\"]";
                     break;
-                case "Foot":
+                case "Foot                                      [Ft']":
                     double.TryParse(fromText.Text, out num);
                     num = num / 3.2808;
                     unitLen1.Text = "[Ft']";
                     break;
-                case "Kilometer":
+                case "Kilometer                              [km]":
                     double.TryParse(fromText.Text, out num);
                     num = num * 1000;
                     unitLen1.Text = "[km]";
                     break;
-                case "Nanometer":
+                case "Nanometer                           [nm]":
                     double.TryParse(fromText.Text, out num);
                     num = num / 1000000000;
                     unitLen1.Text = "[nm]";
                     break;
-                case "Micrometer":
+                case "Micrometer                           [um]":
                     double.TryParse(fromText.Text, out num);
                     num = num / 1000000;
                     unitLen1.Text = "[μm]";
                     break;
-                case "Mile":
+                case "Mile                                      [mi.]":
                     double.TryParse(fromText.Text, out num);
                     num = num * 1609.34;
                     unitLen1.Text = "[mi.]";
                     break;
-                case "Yard":
+                case "Yard                                      [yd]":
                     double.TryParse(fromText.Text, out num);
                     num = num * 0.9144;
                     unitLen1.Text = "[yd]";
                     break;
-                case "Light Year":
+                case "Light Year                               [ly]":
                     double.TryParse(fromText.Text, out num);
                     num = num * 9.461E+15;
                     unitLen1.Text = "[ly]";
@@ -88,77 +88,77 @@ namespace UnitConverter
 
             switch (toBox.SelectedItem)
             {
-                case "Milimeter":
+                case "Milimeter                              [mm]":
                     num = num * 1000;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[mm]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Centimeter":
+                case "Centimeter                            [cm]":
                     num = num * 100;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[cm]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Meter":
+                case "Meter                                      [m]":
                     num = num * 1;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[m]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Inch":
+                case "Inch                                      [in\"]":
                     num = num / 0.0254;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[In\"]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Foot":
+                case "Foot                                      [Ft']":
                     num = num * 3.2808;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[Ft']";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Kilometer":
+                case "Kilometer                              [km]":
                     num = num / 1000;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[km]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Nanometer":
+                case "Nanometer                           [nm]":
                     num = num * 1000000000;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[nm]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Micrometer":
+                case "Micrometer                           [um]":
                     num = num * 1000000;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[μm]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Mile":
+                case "Mile                                      [mi.]":
                     num = num / 1609.34;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[mi.]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Yard":
+                case "Yard                                      [yd]":
                     num = num / 0.9144;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
                     unitLen2.Text = "[yd]";
                     lbLen2.Text = Convert.ToString(num);
                     break;
-                case "Light Year":
+                case "Light Year                               [ly]":
                     num = num / 9.461E+15;
                     num = Math.Round(num, 3);
                     toText.Text = Convert.ToString(num);
@@ -1135,5 +1135,7 @@ namespace UnitConverter
         {
 
         }
+
+
     }
 }
