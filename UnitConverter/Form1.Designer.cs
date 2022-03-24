@@ -223,9 +223,9 @@ namespace UnitConverter
             // arrow1
             // 
             this.arrow1.Image = ((System.Drawing.Image)(resources.GetObject("arrow1.Image")));
-            this.arrow1.Location = new System.Drawing.Point(57, 61);
+            this.arrow1.Location = new System.Drawing.Point(66, 64);
             this.arrow1.Name = "arrow1";
-            this.arrow1.Size = new System.Drawing.Size(56, 54);
+            this.arrow1.Size = new System.Drawing.Size(40, 40);
             this.arrow1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow1.TabIndex = 12;
             this.arrow1.TabStop = false;
@@ -233,7 +233,7 @@ namespace UnitConverter
             // 
             // lbLen1
             // 
-            this.lbLen1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbLen1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lbLen1.Location = new System.Drawing.Point(15, 18);
             this.lbLen1.Name = "lbLen1";
             this.lbLen1.Size = new System.Drawing.Size(140, 20);
@@ -260,10 +260,10 @@ namespace UnitConverter
             // 
             // lbLen2
             // 
-            this.lbLen2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbLen2.Location = new System.Drawing.Point(15, 119);
+            this.lbLen2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lbLen2.Location = new System.Drawing.Point(2, 116);
             this.lbLen2.Name = "lbLen2";
-            this.lbLen2.Size = new System.Drawing.Size(140, 20);
+            this.lbLen2.Size = new System.Drawing.Size(166, 20);
             this.lbLen2.TabIndex = 10;
             this.lbLen2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -285,7 +285,7 @@ namespace UnitConverter
             "Light Year                               [ly]"});
             this.toBox.Location = new System.Drawing.Point(175, 45);
             this.toBox.Name = "toBox";
-            this.toBox.Size = new System.Drawing.Size(160, 160);
+            this.toBox.Size = new System.Drawing.Size(160, 238);
             this.toBox.TabIndex = 5;
             // 
             // LengthConvertButton
@@ -350,7 +350,7 @@ namespace UnitConverter
             "Light Year                               [ly]"});
             this.fromBox.Location = new System.Drawing.Point(9, 45);
             this.fromBox.Name = "fromBox";
-            this.fromBox.Size = new System.Drawing.Size(160, 160);
+            this.fromBox.Size = new System.Drawing.Size(160, 238);
             this.fromBox.TabIndex = 4;
             // 
             // Units
@@ -391,7 +391,7 @@ namespace UnitConverter
             this.tabPage2.Location = new System.Drawing.Point(104, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(571, 414);
+            this.tabPage2.Size = new System.Drawing.Size(584, 400);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Weight";
             // 
@@ -411,9 +411,9 @@ namespace UnitConverter
             // arrow2
             // 
             this.arrow2.Image = ((System.Drawing.Image)(resources.GetObject("arrow2.Image")));
-            this.arrow2.Location = new System.Drawing.Point(57, 61);
+            this.arrow2.Location = new System.Drawing.Point(66, 64);
             this.arrow2.Name = "arrow2";
-            this.arrow2.Size = new System.Drawing.Size(56, 54);
+            this.arrow2.Size = new System.Drawing.Size(40, 40);
             this.arrow2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow2.TabIndex = 12;
             this.arrow2.TabStop = false;
@@ -421,7 +421,7 @@ namespace UnitConverter
             // 
             // lb21
             // 
-            this.lb21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb21.Location = new System.Drawing.Point(15, 18);
             this.lb21.Name = "lb21";
             this.lb21.Size = new System.Drawing.Size(140, 20);
@@ -431,9 +431,9 @@ namespace UnitConverter
             // lb24
             // 
             this.lb24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb24.Location = new System.Drawing.Point(15, 136);
+            this.lb24.Location = new System.Drawing.Point(2, 139);
             this.lb24.Name = "lb24";
-            this.lb24.Size = new System.Drawing.Size(140, 20);
+            this.lb24.Size = new System.Drawing.Size(166, 20);
             this.lb24.TabIndex = 11;
             this.lb24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -448,10 +448,10 @@ namespace UnitConverter
             // 
             // lb23
             // 
-            this.lb23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb23.Location = new System.Drawing.Point(15, 119);
+            this.lb23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb23.Location = new System.Drawing.Point(2, 116);
             this.lb23.Name = "lb23";
-            this.lb23.Size = new System.Drawing.Size(140, 20);
+            this.lb23.Size = new System.Drawing.Size(166, 20);
             this.lb23.TabIndex = 10;
             this.lb23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -504,7 +504,7 @@ namespace UnitConverter
             "Carat                               [car, ct]"});
             this.toBoxWeight.Location = new System.Drawing.Point(175, 45);
             this.toBoxWeight.Name = "toBoxWeight";
-            this.toBoxWeight.Size = new System.Drawing.Size(160, 108);
+            this.toBoxWeight.Size = new System.Drawing.Size(160, 238);
             this.toBoxWeight.TabIndex = 13;
             // 
             // label5
@@ -529,7 +529,7 @@ namespace UnitConverter
             "Carat                               [car, ct]"});
             this.fromBoxWeight.Location = new System.Drawing.Point(9, 45);
             this.fromBoxWeight.Name = "fromBoxWeight";
-            this.fromBoxWeight.Size = new System.Drawing.Size(160, 108);
+            this.fromBoxWeight.Size = new System.Drawing.Size(160, 238);
             this.fromBoxWeight.TabIndex = 12;
             // 
             // tabPage3
@@ -546,7 +546,7 @@ namespace UnitConverter
             this.tabPage3.Location = new System.Drawing.Point(104, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(571, 414);
+            this.tabPage3.Size = new System.Drawing.Size(584, 400);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Temperature";
             // 
@@ -566,9 +566,9 @@ namespace UnitConverter
             // arrow3
             // 
             this.arrow3.Image = ((System.Drawing.Image)(resources.GetObject("arrow3.Image")));
-            this.arrow3.Location = new System.Drawing.Point(57, 61);
+            this.arrow3.Location = new System.Drawing.Point(66, 64);
             this.arrow3.Name = "arrow3";
-            this.arrow3.Size = new System.Drawing.Size(56, 54);
+            this.arrow3.Size = new System.Drawing.Size(40, 40);
             this.arrow3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow3.TabIndex = 12;
             this.arrow3.TabStop = false;
@@ -576,7 +576,7 @@ namespace UnitConverter
             // 
             // lb31
             // 
-            this.lb31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb31.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb31.Location = new System.Drawing.Point(15, 18);
             this.lb31.Name = "lb31";
             this.lb31.Size = new System.Drawing.Size(140, 20);
@@ -603,10 +603,10 @@ namespace UnitConverter
             // 
             // lb33
             // 
-            this.lb33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb33.Location = new System.Drawing.Point(15, 119);
+            this.lb33.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb33.Location = new System.Drawing.Point(2, 116);
             this.lb33.Name = "lb33";
-            this.lb33.Size = new System.Drawing.Size(140, 20);
+            this.lb33.Size = new System.Drawing.Size(166, 20);
             this.lb33.TabIndex = 10;
             this.lb33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -657,7 +657,7 @@ namespace UnitConverter
             "Reaumur                                 [°r]"});
             this.toBoxTemp.Location = new System.Drawing.Point(175, 45);
             this.toBoxTemp.Name = "toBoxTemp";
-            this.toBoxTemp.Size = new System.Drawing.Size(160, 82);
+            this.toBoxTemp.Size = new System.Drawing.Size(160, 238);
             this.toBoxTemp.TabIndex = 21;
             // 
             // label6
@@ -680,7 +680,7 @@ namespace UnitConverter
             "Reaumur                                 [°r]"});
             this.fromBoxTemp.Location = new System.Drawing.Point(9, 45);
             this.fromBoxTemp.Name = "fromBoxTemp";
-            this.fromBoxTemp.Size = new System.Drawing.Size(160, 82);
+            this.fromBoxTemp.Size = new System.Drawing.Size(160, 238);
             this.fromBoxTemp.TabIndex = 20;
             // 
             // tabPage4
@@ -697,7 +697,7 @@ namespace UnitConverter
             this.tabPage4.Location = new System.Drawing.Point(104, 4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(571, 414);
+            this.tabPage4.Size = new System.Drawing.Size(584, 400);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Angle";
             // 
@@ -717,9 +717,9 @@ namespace UnitConverter
             // arrow4
             // 
             this.arrow4.Image = ((System.Drawing.Image)(resources.GetObject("arrow4.Image")));
-            this.arrow4.Location = new System.Drawing.Point(57, 61);
+            this.arrow4.Location = new System.Drawing.Point(66, 64);
             this.arrow4.Name = "arrow4";
-            this.arrow4.Size = new System.Drawing.Size(56, 54);
+            this.arrow4.Size = new System.Drawing.Size(40, 40);
             this.arrow4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow4.TabIndex = 12;
             this.arrow4.TabStop = false;
@@ -727,7 +727,7 @@ namespace UnitConverter
             // 
             // lb41
             // 
-            this.lb41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb41.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb41.Location = new System.Drawing.Point(15, 18);
             this.lb41.Name = "lb41";
             this.lb41.Size = new System.Drawing.Size(140, 20);
@@ -754,10 +754,10 @@ namespace UnitConverter
             // 
             // lb43
             // 
-            this.lb43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb43.Location = new System.Drawing.Point(15, 119);
+            this.lb43.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb43.Location = new System.Drawing.Point(2, 116);
             this.lb43.Name = "lb43";
-            this.lb43.Size = new System.Drawing.Size(140, 20);
+            this.lb43.Size = new System.Drawing.Size(166, 20);
             this.lb43.TabIndex = 10;
             this.lb43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -808,7 +808,7 @@ namespace UnitConverter
             "Second                                    [\'\']"});
             this.toBoxAngle.Location = new System.Drawing.Point(175, 45);
             this.toBoxAngle.Name = "toBoxAngle";
-            this.toBoxAngle.Size = new System.Drawing.Size(160, 82);
+            this.toBoxAngle.Size = new System.Drawing.Size(160, 238);
             this.toBoxAngle.TabIndex = 28;
             // 
             // label8
@@ -831,7 +831,7 @@ namespace UnitConverter
             "Second                                    [\'\']"});
             this.fromBoxAngle.Location = new System.Drawing.Point(9, 45);
             this.fromBoxAngle.Name = "fromBoxAngle";
-            this.fromBoxAngle.Size = new System.Drawing.Size(160, 82);
+            this.fromBoxAngle.Size = new System.Drawing.Size(160, 238);
             this.fromBoxAngle.TabIndex = 27;
             // 
             // Volume
@@ -848,7 +848,7 @@ namespace UnitConverter
             this.Volume.Location = new System.Drawing.Point(104, 4);
             this.Volume.Name = "Volume";
             this.Volume.Padding = new System.Windows.Forms.Padding(3);
-            this.Volume.Size = new System.Drawing.Size(571, 414);
+            this.Volume.Size = new System.Drawing.Size(584, 400);
             this.Volume.TabIndex = 4;
             this.Volume.Text = "Volume";
             // 
@@ -868,9 +868,9 @@ namespace UnitConverter
             // arrow5
             // 
             this.arrow5.Image = ((System.Drawing.Image)(resources.GetObject("arrow5.Image")));
-            this.arrow5.Location = new System.Drawing.Point(57, 61);
+            this.arrow5.Location = new System.Drawing.Point(66, 64);
             this.arrow5.Name = "arrow5";
-            this.arrow5.Size = new System.Drawing.Size(56, 54);
+            this.arrow5.Size = new System.Drawing.Size(40, 40);
             this.arrow5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow5.TabIndex = 12;
             this.arrow5.TabStop = false;
@@ -878,7 +878,7 @@ namespace UnitConverter
             // 
             // lb51
             // 
-            this.lb51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb51.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb51.Location = new System.Drawing.Point(15, 18);
             this.lb51.Name = "lb51";
             this.lb51.Size = new System.Drawing.Size(140, 20);
@@ -905,10 +905,10 @@ namespace UnitConverter
             // 
             // lb53
             // 
-            this.lb53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb53.Location = new System.Drawing.Point(15, 119);
+            this.lb53.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb53.Location = new System.Drawing.Point(2, 116);
             this.lb53.Name = "lb53";
-            this.lb53.Size = new System.Drawing.Size(140, 20);
+            this.lb53.Size = new System.Drawing.Size(166, 20);
             this.lb53.TabIndex = 10;
             this.lb53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -968,7 +968,7 @@ namespace UnitConverter
             "Cubic mile                             [mi³]"});
             this.toBoxVol.Location = new System.Drawing.Point(175, 45);
             this.toBoxVol.Name = "toBoxVol";
-            this.toBoxVol.Size = new System.Drawing.Size(160, 199);
+            this.toBoxVol.Size = new System.Drawing.Size(160, 238);
             this.toBoxVol.TabIndex = 35;
             // 
             // label10
@@ -1000,7 +1000,7 @@ namespace UnitConverter
             "Cubic mile                             [mi³]"});
             this.fromBoxVol.Location = new System.Drawing.Point(9, 45);
             this.fromBoxVol.Name = "fromBoxVol";
-            this.fromBoxVol.Size = new System.Drawing.Size(160, 199);
+            this.fromBoxVol.Size = new System.Drawing.Size(160, 238);
             this.fromBoxVol.TabIndex = 34;
             // 
             // Length
@@ -1017,7 +1017,7 @@ namespace UnitConverter
             this.Length.Location = new System.Drawing.Point(104, 4);
             this.Length.Name = "Length";
             this.Length.Padding = new System.Windows.Forms.Padding(3);
-            this.Length.Size = new System.Drawing.Size(571, 414);
+            this.Length.Size = new System.Drawing.Size(584, 400);
             this.Length.TabIndex = 5;
             this.Length.Text = "Pressure";
             // 
@@ -1037,9 +1037,9 @@ namespace UnitConverter
             // arrow6
             // 
             this.arrow6.Image = ((System.Drawing.Image)(resources.GetObject("arrow6.Image")));
-            this.arrow6.Location = new System.Drawing.Point(57, 61);
+            this.arrow6.Location = new System.Drawing.Point(66, 64);
             this.arrow6.Name = "arrow6";
-            this.arrow6.Size = new System.Drawing.Size(56, 54);
+            this.arrow6.Size = new System.Drawing.Size(40, 40);
             this.arrow6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow6.TabIndex = 12;
             this.arrow6.TabStop = false;
@@ -1047,7 +1047,7 @@ namespace UnitConverter
             // 
             // lb61
             // 
-            this.lb61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb61.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb61.Location = new System.Drawing.Point(15, 18);
             this.lb61.Name = "lb61";
             this.lb61.Size = new System.Drawing.Size(140, 20);
@@ -1074,10 +1074,10 @@ namespace UnitConverter
             // 
             // lb63
             // 
-            this.lb63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb63.Location = new System.Drawing.Point(15, 119);
+            this.lb63.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb63.Location = new System.Drawing.Point(2, 116);
             this.lb63.Name = "lb63";
-            this.lb63.Size = new System.Drawing.Size(140, 20);
+            this.lb63.Size = new System.Drawing.Size(166, 20);
             this.lb63.TabIndex = 10;
             this.lb63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1139,7 +1139,7 @@ namespace UnitConverter
             "Pound-force/Square inch"});
             this.toBoxPressure.Location = new System.Drawing.Point(175, 45);
             this.toBoxPressure.Name = "toBoxPressure";
-            this.toBoxPressure.Size = new System.Drawing.Size(160, 225);
+            this.toBoxPressure.Size = new System.Drawing.Size(160, 238);
             this.toBoxPressure.TabIndex = 42;
             // 
             // label12
@@ -1173,7 +1173,7 @@ namespace UnitConverter
             "Pound-force/Square inch"});
             this.fromBoxPressure.Location = new System.Drawing.Point(9, 45);
             this.fromBoxPressure.Name = "fromBoxPressure";
-            this.fromBoxPressure.Size = new System.Drawing.Size(160, 225);
+            this.fromBoxPressure.Size = new System.Drawing.Size(160, 238);
             this.fromBoxPressure.TabIndex = 41;
             // 
             // tabPage6
@@ -1190,7 +1190,7 @@ namespace UnitConverter
             this.tabPage6.Location = new System.Drawing.Point(104, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(571, 414);
+            this.tabPage6.Size = new System.Drawing.Size(584, 400);
             this.tabPage6.TabIndex = 6;
             this.tabPage6.Text = "Force";
             // 
@@ -1210,9 +1210,9 @@ namespace UnitConverter
             // arrow7
             // 
             this.arrow7.Image = ((System.Drawing.Image)(resources.GetObject("arrow7.Image")));
-            this.arrow7.Location = new System.Drawing.Point(57, 61);
+            this.arrow7.Location = new System.Drawing.Point(66, 64);
             this.arrow7.Name = "arrow7";
-            this.arrow7.Size = new System.Drawing.Size(56, 54);
+            this.arrow7.Size = new System.Drawing.Size(40, 40);
             this.arrow7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow7.TabIndex = 12;
             this.arrow7.TabStop = false;
@@ -1220,7 +1220,7 @@ namespace UnitConverter
             // 
             // lb71
             // 
-            this.lb71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb71.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb71.Location = new System.Drawing.Point(15, 18);
             this.lb71.Name = "lb71";
             this.lb71.Size = new System.Drawing.Size(140, 20);
@@ -1247,10 +1247,10 @@ namespace UnitConverter
             // 
             // lb73
             // 
-            this.lb73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb73.Location = new System.Drawing.Point(15, 119);
+            this.lb73.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb73.Location = new System.Drawing.Point(2, 116);
             this.lb73.Name = "lb73";
-            this.lb73.Size = new System.Drawing.Size(140, 20);
+            this.lb73.Size = new System.Drawing.Size(166, 20);
             this.lb73.TabIndex = 10;
             this.lb73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1305,7 +1305,7 @@ namespace UnitConverter
             "Joule/meter                         [J/m]"});
             this.toBoxForce.Location = new System.Drawing.Point(175, 45);
             this.toBoxForce.Name = "toBoxForce";
-            this.toBoxForce.Size = new System.Drawing.Size(160, 134);
+            this.toBoxForce.Size = new System.Drawing.Size(160, 238);
             this.toBoxForce.TabIndex = 49;
             // 
             // label14
@@ -1332,7 +1332,7 @@ namespace UnitConverter
             "Joule/meter                         [J/m]"});
             this.fromBoxForce.Location = new System.Drawing.Point(9, 45);
             this.fromBoxForce.Name = "fromBoxForce";
-            this.fromBoxForce.Size = new System.Drawing.Size(160, 134);
+            this.fromBoxForce.Size = new System.Drawing.Size(160, 238);
             this.fromBoxForce.TabIndex = 48;
             // 
             // tabPage7
@@ -1349,7 +1349,7 @@ namespace UnitConverter
             this.tabPage7.Location = new System.Drawing.Point(104, 4);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(571, 414);
+            this.tabPage7.Size = new System.Drawing.Size(584, 400);
             this.tabPage7.TabIndex = 7;
             this.tabPage7.Text = "Energy";
             // 
@@ -1369,9 +1369,9 @@ namespace UnitConverter
             // arrow8
             // 
             this.arrow8.Image = ((System.Drawing.Image)(resources.GetObject("arrow8.Image")));
-            this.arrow8.Location = new System.Drawing.Point(57, 61);
+            this.arrow8.Location = new System.Drawing.Point(66, 64);
             this.arrow8.Name = "arrow8";
-            this.arrow8.Size = new System.Drawing.Size(56, 54);
+            this.arrow8.Size = new System.Drawing.Size(40, 40);
             this.arrow8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow8.TabIndex = 12;
             this.arrow8.TabStop = false;
@@ -1379,7 +1379,7 @@ namespace UnitConverter
             // 
             // lb81
             // 
-            this.lb81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb81.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb81.Location = new System.Drawing.Point(15, 18);
             this.lb81.Name = "lb81";
             this.lb81.Size = new System.Drawing.Size(140, 20);
@@ -1406,10 +1406,10 @@ namespace UnitConverter
             // 
             // lb83
             // 
-            this.lb83.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb83.Location = new System.Drawing.Point(15, 119);
+            this.lb83.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb83.Location = new System.Drawing.Point(2, 116);
             this.lb83.Name = "lb83";
-            this.lb83.Size = new System.Drawing.Size(140, 20);
+            this.lb83.Size = new System.Drawing.Size(166, 20);
             this.lb83.TabIndex = 10;
             this.lb83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1524,7 +1524,7 @@ namespace UnitConverter
             this.tabPage8.Location = new System.Drawing.Point(104, 4);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(571, 414);
+            this.tabPage8.Size = new System.Drawing.Size(584, 400);
             this.tabPage8.TabIndex = 8;
             this.tabPage8.Text = "Speed";
             // 
@@ -1544,9 +1544,9 @@ namespace UnitConverter
             // arrow9
             // 
             this.arrow9.Image = ((System.Drawing.Image)(resources.GetObject("arrow9.Image")));
-            this.arrow9.Location = new System.Drawing.Point(57, 61);
+            this.arrow9.Location = new System.Drawing.Point(66, 64);
             this.arrow9.Name = "arrow9";
-            this.arrow9.Size = new System.Drawing.Size(56, 54);
+            this.arrow9.Size = new System.Drawing.Size(40, 40);
             this.arrow9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.arrow9.TabIndex = 12;
             this.arrow9.TabStop = false;
@@ -1554,7 +1554,7 @@ namespace UnitConverter
             // 
             // lb91
             // 
-            this.lb91.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb91.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.lb91.Location = new System.Drawing.Point(15, 18);
             this.lb91.Name = "lb91";
             this.lb91.Size = new System.Drawing.Size(140, 20);
@@ -1581,10 +1581,10 @@ namespace UnitConverter
             // 
             // lb93
             // 
-            this.lb93.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lb93.Location = new System.Drawing.Point(15, 119);
+            this.lb93.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lb93.Location = new System.Drawing.Point(2, 116);
             this.lb93.Name = "lb93";
-            this.lb93.Size = new System.Drawing.Size(140, 20);
+            this.lb93.Size = new System.Drawing.Size(166, 20);
             this.lb93.TabIndex = 10;
             this.lb93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1635,7 +1635,7 @@ namespace UnitConverter
             "Mach"});
             this.toBoxSpeed.Location = new System.Drawing.Point(175, 45);
             this.toBoxSpeed.Name = "toBoxSpeed";
-            this.toBoxSpeed.Size = new System.Drawing.Size(160, 82);
+            this.toBoxSpeed.Size = new System.Drawing.Size(160, 238);
             this.toBoxSpeed.TabIndex = 63;
             // 
             // label18
@@ -1658,7 +1658,7 @@ namespace UnitConverter
             "Mach"});
             this.fromBoxSpeed.Location = new System.Drawing.Point(8, 45);
             this.fromBoxSpeed.Name = "fromBoxSpeed";
-            this.fromBoxSpeed.Size = new System.Drawing.Size(160, 82);
+            this.fromBoxSpeed.Size = new System.Drawing.Size(160, 238);
             this.fromBoxSpeed.TabIndex = 62;
             // 
             // Form1
