@@ -202,7 +202,7 @@ namespace UnitConverter
             this.tabPage1.Location = new System.Drawing.Point(104, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(571, 414);
+            this.tabPage1.Size = new System.Drawing.Size(584, 400);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Length";
             this.tabPage1.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPage1_Paint);
@@ -371,7 +371,7 @@ namespace UnitConverter
             this.Units.Multiline = true;
             this.Units.Name = "Units";
             this.Units.SelectedIndex = 0;
-            this.Units.Size = new System.Drawing.Size(679, 422);
+            this.Units.Size = new System.Drawing.Size(692, 408);
             this.Units.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.Units.TabIndex = 8;
             this.Units.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Units_DrawItem);
@@ -1665,7 +1665,7 @@ namespace UnitConverter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 553);
+            this.ClientSize = new System.Drawing.Size(670, 398);
             this.Controls.Add(this.Units);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
